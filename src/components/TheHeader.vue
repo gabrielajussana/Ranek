@@ -9,10 +9,13 @@
     </header>
 </template>
 <script>
-import { Vue } from 'vue-property-decorator'
-export default class TheHeader extends Vue{
+import { Component, Vue } from 'vue-property-decorator'
+@Component
+class TheHeader extends Vue{
     
 }
+
+export default TheHeader
 </script>
 <style scoped>
     nav {

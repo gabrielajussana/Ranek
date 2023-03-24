@@ -2,10 +2,12 @@
     <footer>Ranek. Alguns direitos reservados.</footer>
 </template>
 <script>
-import { Vue } from 'vue-property-decorator'
-export default class TheFooter extends Vue{
+import { Component, Vue } from 'vue-property-decorator'
+@Component
+class TheFooter extends Vue{
     
 }
+export default TheFooter
 </script>
 <style scoped>
     footer{
