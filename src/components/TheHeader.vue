@@ -14,7 +14,6 @@ import { Component, Vue } from 'vue-property-decorator'
 class TheHeader extends Vue{
     
 }
-
 export default TheHeader
 </script>
 <style scoped>
