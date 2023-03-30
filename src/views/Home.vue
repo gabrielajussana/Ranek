@@ -2,6 +2,7 @@
   <section>
     <h1>Compre ou Venda</h1>
     <SearchProduct />
+    <ProductList />
   </section>
 </template>
 
@@ -12,7 +13,7 @@ import SearchProduct from '@/components/SearchProduct.vue'
 
 @Component({components: { SearchProduct, ProductList}})
 class Home extends Vue {
-  
+ 
 }
 export default Home
 </script>
